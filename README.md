@@ -15,7 +15,7 @@
 ### Technical
  Add a short paragraph describing the features below. What strategies or design decisions did you work from? 
 - [x] At least 2 web pages.
-- [ ] Version controlled with Git
+- [ ] Version controlled with Gits
 - [ ] Deployed on GitHub pages.
 - [ ] Implements responsive design principles.
 - [ ] Uses semantic HTML.
