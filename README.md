@@ -1,6 +1,6 @@
 #  Simone Wight - Portfolio Task
 ​
-[My portfolio site](https://simonewight.github.io/)
+[simone wight portfolio site](https://simonewight.github.io/)
 ​
 ## Project Requirements
 
@@ -24,6 +24,8 @@
  Add a short paragraph describing the features below, if you included any. 
 - [x] Different styles for active, hover and focus states.
 - [x] Include JavaScript to add some dynamic elements to your site. (Extra tricky!)
+
+The website includes varied styles for active, hover, and focus states to enhance user interaction, making it clear when elements are clickable or selectable. This has been used on images, buttons, navigation and social icons. Additionally, JavaScript is used to implement dynamic features, such as a responsive mobile menu that expands and collapses, providing a seamless navigation experience across different devices.
 ​
 ### Screenshots
 > Please include the following:
@@ -31,9 +33,6 @@
 > - The different features of your site, e.g. if you have hover states, take a screenshot that shows that.  
 > 
 > You can do this by saving the images in a folder in your repo, and including them in your readme document with the following Markdown code: 
-
-####  image_title_goes_here 
-![Put a description of your image here](./relative_path_to_file)
 
 ####  homepage_large_device
 ![What my website homepage looks like on a large device ie. laptop and desktop](./screenshots/homepage-large.png)
