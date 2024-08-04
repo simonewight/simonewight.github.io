@@ -6,24 +6,24 @@
 
 ### Content
  Add a short paragraph describing the features below. What aesthetic and technical choices did you make? 
-- [ ] At least one profile picture
-- [ ] Biography (at least 100 words)
-- [ ] Functional Contact Form
-- [ ] "Projects" section
-- [ ] Links to external sites, e.g. GitHub and LinkedIn.
+- [x] At least one profile picture
+- [x] Biography (at least 100 words)
+- [x] Functional Contact Form
+- [x] "Projects" section
+- [x] Links to external sites, e.g. GitHub and LinkedIn.
 ​
 ### Technical
  Add a short paragraph describing the features below. What strategies or design decisions did you work from? 
 - [x] At least 2 web pages.
-- [ ] Version controlled with Gits
-- [ ] Deployed on GitHub pages.
-- [ ] Implements responsive design principles.
-- [ ] Uses semantic HTML.
+- [x] Version controlled with Gits
+- [x] Deployed on GitHub pages.
+- [x] Implements responsive design principles.
+- [x] Uses semantic HTML.
 
 ### Bonus (optional)
  Add a short paragraph describing the features below, if you included any. 
-- [ ] Different styles for active, hover and focus states.
-- [ ] Include JavaScript to add some dynamic elements to your site. (Extra tricky!)
+- [x] Different styles for active, hover and focus states.
+- [x] Include JavaScript to add some dynamic elements to your site. (Extra tricky!)
 ​
 ### Screenshots
 > Please include the following:

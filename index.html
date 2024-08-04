@@ -57,17 +57,16 @@
   <div class="hero-container">
       <div class="hero-content-wrap">
         <div class="hero-text-wrap">
-      <p class="hero-text">A seasoned UI/UX designer dedicated to bridging creativity with user-centric design principles, 
-        sculpting intuitive digital experiences that resonate with audiences. With a knack for transforming ideas into 
-        visually compelling interfaces. <br><br> A seasoned UI/UX designer dedicated to bridging creativity with user-centric design principles, 
-        sculpting intuitive digital experiences that resonate with audiences. With a knack for transforming ideas into 
-        visually compelling interfaces. <br><br>A seasoned UI/UX designer dedicated to bridging creativity with user-centric design principles, 
-        sculpting intuitive digital experiences that resonate with audiences. With a knack for transforming ideas into 
-        visually compelling interfaces.</p></div>
+      <p class="hero-text">Hi! I'm Simone Wight. I've been a digital designer for a while, and now I'm expanding into coding, 
+        thanks to a scholarship from SheCodes. This opportunity is not just about learning; it's about being part of a movement that empowers more women 
+        in tech, something I'm really passionate about. <br><br> I've always had a knack for picking up new tech, and I'm 
+        thrilled about this new chapter. When I'm not glued to a screen, you can find me biking, exploring local markets, 
+        or daydreaming about running a small farm and growing my own food someday. <br><br>Stick around to see where this journey 
+        takes me!</p></div>
       <div class="hero-thumb-wrap">
-      <img class="hero-thumb" src="./img/Lips.webp"
+      <img class="hero-thumb" src="./img/Lips-trans.webp"
       alt="Illustration of lips in black and white" />
-      <a href="#" class="hero-btn">Get a Quote</a>
+      <a href="#contact" class="hero-btn">Get a Quote</a>
     </div>
   </div>
   </div>
@@ -182,5 +181,15 @@
         alt="The Github social icon logo" />
       </a>
     </footer>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          const hamburgerButton = document.querySelector('.hamburger-button');
+          const mobileNav = document.querySelector('.mobile-nav');
+      
+          hamburgerButton.addEventListener('click', function() {
+              mobileNav.classList.toggle('display-none');
+          });
+      });
+      </script>
 </body>
 </html>

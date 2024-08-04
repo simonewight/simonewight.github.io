@@ -403,28 +403,27 @@ padding-left: 20px;
     text-decoration: none;
 }
 
-/* Layout for feature project with image and text side by side */
 .project-hero {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 5%; /* Add padding around the content */
+    padding: 50px 5%;
     background-color: #f4f4f4;
 }
 
 .project-image {
-    width: 50%; /* Control size of the image */
-    padding-right: 20px; /* Space between image and text */
+    width: 50%;
+    padding-right: 20px;
 }
 
 .project-info {
-    width: 50%; /* Control width of the text area */
+    width: 50%;
     padding: 20px;
-    text-align: left; /* Align text to the left for better readability */
+    text-align: left;
 }
 
 .project-info h1, .project-info p {
-    margin-bottom: 10px; /* Uniform spacing for all text elements */
+    margin-bottom: 10px;
 }
 
 /* Contact area */
@@ -594,6 +593,7 @@ header {
 
     header .mobile-header .hamburger-icon {
     display: none;
+    justify-content: space-between;
     }
 
     .logo {
@@ -613,11 +613,5 @@ header {
     .hero-section {
     padding-top: 138px;
     padding-bottom: 0;
-    }
-}
-
-@media (max-width: 768px) {
-    body {
-        background-color: red;
     }
 }

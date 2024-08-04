@@ -25,7 +25,6 @@
             </ul>
         </nav>
     </header>
-
     <main>
         <section class="project-hero">
             <img src="./img/project-1.webp" alt="Feature Project Image" class="project-image">
@@ -38,7 +37,6 @@
             </div>
         </section>
     </main>
-
     <footer>
         <a href="https://www.linkedin.com/in/simone-wight/" title="Simone Wight on LinkedIn">
             <img class="socials-icon" src="./img/linkedin-logo.svg" alt="LinkedIn">
@@ -50,5 +48,15 @@
             <img class="socials-icon" src="./img/github-logo.svg" alt="GitHub">
         </a>
     </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const hamburgerButton = document.querySelector('.hamburger-button');
+            const mobileNav = document.querySelector('.mobile-nav');
+        
+            hamburgerButton.addEventListener('click', function() {
+                mobileNav.classList.toggle('display-none');
+            });
+        });
+        </script>
 </body>
 </html>
