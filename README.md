@@ -34,3 +34,30 @@
 
 ####  image_title_goes_here 
 ![Put a description of your image here](./relative_path_to_file)
+
+####  homepage_large_device
+![What my website homepage looks like on a large device ie. laptop and desktop](./screenshots/homepage-large.png)
+
+####  homepage_medium_device 
+![What my website homepage looks like on a medium device ie. tablet](./screenshots/homepage-medium.png)
+
+####  homepage_small_device 
+![What my website homepage looks like on a small device ie. mobile](./screenshots/homepage-small.png)
+
+####  project_page_large_device
+![What my project page looks like on a large device ie. laptop and desktop](./screenshots/project-page-large.png)
+
+####  project_page_medium_device 
+![What my project page looks like on a medium device ie. tablet](./screenshots/project-page-medium.png)
+
+####  project_page_small_device
+![What my project page looks like on a small device ie. mobile](./screenshots/project-page-small.png)
+
+####  hover_state_project_button
+![The colour of my project button changes colour on hover to the brand color variable](./screenshots/hover-state-button-colour-change.png)
+
+####  hover_state_project_image 
+![The project image grows and shrinks on hover on and hover off respectfully](./screenshots/hover-state-grow.png)
+
+####  hover_state_hero_button
+![The hero button changes colour upon hover](./screenshots/hero-button-on-hover.png)
