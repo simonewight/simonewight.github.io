@@ -575,62 +575,133 @@ footer a:hover .socials-icon {
 }
 
 
-/* @Media queries */
-
-@media (min-width: 768px) {
-header {
+/* Base styles */
+.hero-content-wrap {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px;
+}
+
+/* Responsive Styles */
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
     header nav ul {
-    display: flex;
-    gap: 24px;
-    margin-right: 16px;
+        display: flex;
+        gap: 24px;
+        margin-right: 16px;
     }
 
     header .mobile-header .hamburger-icon {
-    display: none;
-    justify-content: space-between;
+        display: none;
     }
 
     .logo {
-    height: 40px;
+        height: 40px;
     }
 
     .desktop-nav a {
-    text-decoration: none;
-    font-size: larger;
-    color: var(--black);
+        text-decoration: none;
+        font-size: larger;
+        color: var(--black);
     }
 
     .desktop-nav {
-    display: inline-block;
+        display: inline-block;
     }
 
     .hero-section {
-    padding-top: 138px;
-    padding-bottom: 0;
+        padding-top: 138px;
+        padding-bottom: 0;
     }
 }
 
-/* Default styles for larger screens */
-.hero-content-wrap {
-    display: flex;
-    justify-content: space-between; /* Aligns items on the main axis */
-    align-items: center; /* Aligns items on the cross axis */
-    padding: 20px; /* Add some padding */
-}
+/* Medium devices (tablets, 768px to 991px) */
+@media (max-width: 991px) {
+    header .desktop-nav {
+        display: none;
+    }
 
-/* Styles for smaller screens */
-@media (max-width: 768px) {
-    .hero-content-wrap {
-        flex-direction: column; /* Stack elements vertically */
+    header .mobile-header {
+        display: flex;
+    }
+
+    .mobile-nav {
+        display: block;
+    }
+
+    .hero-content-wrap, .project-hero, .contact-form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn-project {
+        width: 100%;
+        margin-top: 20px;
     }
 
     .hero-btn {
-        order: 1; /* Ensure the button comes after the text */
-        margin-top: 20px; /* Add space between the text and the button */
+        margin-top: 20px;
+    }
+
+    .project-image, .project-info {
+        width: 100%;
+        padding: 0;
+    }
+
+    .articles-container-wrap {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-h1-text {
+        font-size: 56px;
+        text-align: center;
+    }
+
+    .hero-h2-text, .contact-h2, .project-h2-text {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .hero-section-text, .project-text, .contact-text {
+        text-align: justify;
+    }
+
+    footer {
+        padding: 10px;
+    }
+
+    body {
+        background-color: #f4f4f4;
     }
 }
+
+/* Media Queries for smaller screens */
+@media (max-width: 768px) {
+    .btn-contact-top {
+        display: block;
+        width: 80%;
+        margin: 10px auto;
+        padding: 12px 0;
+        text-align: center;
+    }
+
+    .contact-btn-wrap {
+        text-align: center;
+    }
+
+    .form-container input[type="text"],
+    .form-container textarea,
+    .form-container select {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
