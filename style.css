@@ -73,8 +73,21 @@ select {
 
 /* Components */
 
-.logo {
-    height: 40px;
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #fff;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
 }
 
 header .mobile-header {
@@ -107,6 +120,27 @@ header button {
 
 .desktop-nav a:hover {
     color: var(--hover-color, #fc372d);
+}
+
+.logo {
+    height: 50px;
+}
+
+.desktop-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.desktop-nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.desktop-nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
 }
 
 .hamburger-icon {
@@ -369,6 +403,29 @@ padding-left: 20px;
     text-decoration: none;
 }
 
+/* Layout for feature project with image and text side by side */
+.project-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 5%; /* Add padding around the content */
+    background-color: #f4f4f4;
+}
+
+.project-image {
+    width: 50%; /* Control size of the image */
+    padding-right: 20px; /* Space between image and text */
+}
+
+.project-info {
+    width: 50%; /* Control width of the text area */
+    padding: 20px;
+    text-align: left; /* Align text to the left for better readability */
+}
+
+.project-info h1, .project-info p {
+    margin-bottom: 10px; /* Uniform spacing for all text elements */
+}
 
 /* Contact area */
 
@@ -542,6 +599,7 @@ header {
     .logo {
     height: 40px;
     }
+
     .desktop-nav a {
     text-decoration: none;
     font-size: larger;
@@ -556,5 +614,10 @@ header {
     padding-top: 138px;
     padding-bottom: 0;
     }
+}
 
+@media (max-width: 768px) {
+    body {
+        background-color: red;
+    }
 }
